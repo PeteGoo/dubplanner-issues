@@ -2,6 +2,51 @@
 
 ---
 
+## Week of February 9-15, 2026
+
+### New Features
+
+#### Display Density Slider
+- **Single density control** - Replaced the separate cell width and height dropdowns with one easy-to-use slider offering five sizes: Chip, Compact, Normal, Card, and Large Card
+
+#### Expand Rows Toggle
+- **Show all tickets at once** - New toggle in display settings expands grid rows to show every ticket in a cell, removing the need to scroll through per-cell arrows
+
+#### Show Archived Tickets
+- **View completed work** - New toggle in settings lets you include archived and completed tickets on the planner grid
+
+#### Create Issue from Grid
+- **Quick issue creation** - Right-click any cell or press `C` to create a new issue directly from the grid, automatically pre-filled with the cell's assignee and week
+
+#### Rich Ticket Descriptions
+- **Formatted description tooltips** - Ticket description tooltips now render Markdown formatting including bold, italic, code blocks, and headings
+
+### Bug Fixes
+
+- **Fixed invisible Delete button in dark mode** - The Delete button now displays correctly in dark mode with proper theme colors
+- **Fixed missing error messages** - API error messages now properly appear in toast notifications instead of failing silently
+- **Fixed duplicate week label errors** - Moving tickets between weeks no longer causes duplicate week label errors
+
+---
+
+## Week of February 2-8, 2026
+
+### New Features
+
+#### Project Change Notifications
+- **Stay in sync with your team** - A banner alert now appears when a project is updated or deleted by another user, with options to refresh or dismiss
+
+### Improvements
+
+#### Session Handling
+- **Smoother re-authentication** - Expired issue tracker sessions now prompt you to re-login instead of showing confusing server errors
+
+### Bug Fixes
+
+- **Fixed authentication lookup for some workspaces** - Resolved an issue where issue tracker authentication could fail for certain workspace configurations
+
+---
+
 ## Week of January 26 - February 1, 2026
 
 ### New Features
