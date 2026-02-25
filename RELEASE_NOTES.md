@@ -2,6 +2,33 @@
 
 ---
 
+## Week of February 16-22, 2026
+
+### New Features
+
+#### Show Completed Toggle
+- **Hide or show completed tickets** - New toggle in display options lets you filter out completed, done, and finished tickets from the planner grid. Your preference is remembered across sessions
+
+#### Resizable Sidebar
+- **Drag to resize the sidebar** - You can now drag the right edge of the sidebar to make it wider or narrower, so long team and project names are no longer cut off. Your preferred width is saved across page reloads
+
+#### Remember Last Project
+- **Pick up where you left off** - Opening DubPlanner now takes you straight to the last project you were working on, instead of showing an empty project selection screen
+
+### Improvements
+
+#### Visual Polish
+- **Completed tickets are visually de-emphasised** - Tickets with a completed or done status now appear at reduced opacity, making it easier to focus on active work
+- **Tooltips on controls** - Header and sidebar buttons now show helpful labels on hover, including toggle sidebar, open in issue tracker, favourite, and display options
+- **Wider dropdown menus** - Display options and filter menus are now slightly wider to avoid text being cut off
+- **Cleaner milestone tooltips** - Milestone tooltip popups no longer show an unwanted border frame
+
+### Bug Fixes
+
+- **Fixed noisy connection indicator** - The "Connected" status badge is now hidden during normal use to reduce visual clutter. It still appears when there's a connection problem
+
+---
+
 ## Week of February 9-15, 2026
 
 ### New Features
