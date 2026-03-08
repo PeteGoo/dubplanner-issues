@@ -2,40 +2,32 @@
 
 If your Linear workspace restricts label creation to Admins or Owners, you can set up the Week labels manually using these steps.
 
-## Step 1: Open Linear Label Settings
+## Step 1: Open Label Settings
 
-1. Open your Linear workspace
-2. Go to **Settings** (gear icon in the sidebar)
-3. Click **Labels** under Workspace settings
+1. Click your **profile menu** at the top left of Linear
+2. Click **Settings** (or press `G` then `S` to go there directly)
+3. In the left menu, find the **Issues** section and click **Labels**
 
-## Step 2: Create the Dubplanner Group Label
+## Step 2: Create the Dubplanner Group
 
-1. Click **New label**
-2. Set the name to `Dubplanner`
-3. Set the color to `#6b7280` (gray)
-4. Check the **Group** option if available
-5. Click **Create**
+1. Click **New Group**
+2. Type `Dubplanner` and press **Enter**
+3. Linear will immediately drop you into creating a label underneath the group
 
 ## Step 3: Create Week Labels
 
-Under the **Dubplanner** group, create a label for each week you need. At minimum, create labels for the weeks your project will span.
+1. After creating the group, you'll already be in the label input — type `Week1` and press **Enter**
+2. Linear keeps the input active, so just type `Week2` and press **Enter**
+3. Continue for each week you need: `Week3`, `Week4`, ... up to `Week52`
 
-For each label:
-1. Click **New label** (or add a sub-label under Dubplanner)
-2. Set the name to `Week1`, `Week2`, `Week3`, etc. (no space between "Week" and the number)
-3. Set the color to `#bec2c8` (light gray)
-4. Make sure it's nested under the **Dubplanner** group
-5. Click **Create**
-
-Repeat for each week number you need (up to Week52 for a full year).
+If you leave and need to add more labels later, right-click on the **Dubplanner** group and select **Add label to group**.
 
 ### Naming Convention
 
-Labels must follow this exact naming format:
-- `Week1` (not `Week 1` or `week1`)
-- `Week2`
-- `Week3`
-- ... up to `Week52`
+Labels must follow this exact format — no spaces, capital W:
+- `Week1`, `Week2`, `Week3`, ... `Week52`
+
+You don't need all 52 — just create labels for the weeks your project will span.
 
 ## Step 4: Verify in DubPlanner
 
