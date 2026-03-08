@@ -5,7 +5,7 @@ If your Linear workspace restricts label creation to Admins or Owners, you can s
 ## Step 1: Open Label Settings
 
 1. Click your **profile menu** at the top left of Linear
-2. Click **Settings** (or press `G` then `S` to go there directly)
+2. Click **Settings** (or press `g` then `s` to go there directly)
 3. In the left menu, find the **Issues** section and click **Labels**
 
 ## Step 2: Create the Dubplanner Group
