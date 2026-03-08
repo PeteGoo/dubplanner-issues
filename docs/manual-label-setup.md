@@ -27,7 +27,7 @@ If you leave and need to add more labels later, right-click on the **Dubplanner*
 Labels must follow this exact format — no spaces, capital W:
 - `Week1`, `Week2`, `Week3`, ... `Week52`
 
-You don't need all 52 — just create labels for the weeks your project will span.
+Create all 52 labels (Week1 through Week52) so that DubPlanner can verify the setup is complete.
 
 ## Step 4: Verify in DubPlanner
 
