@@ -2,6 +2,83 @@
 
 ---
 
+## Week of April 13-19, 2026
+
+### New Features
+
+#### Ticket Detail Side Panel
+- **Click any ticket to open its details** - Clicking a ticket in the planner now opens a side panel on the right with the full ticket details — status, assignee, estimate, week, milestone, parent, and description — plus a link out to the issue tracker
+- **Edit status, assignee, and week inline** - Change a ticket's status, assignee, or scheduled week directly from the panel, with a Save/Cancel flow and a prompt before losing unsaved changes
+- **Resizable panel** - Drag the panel's left edge to make it wider or narrower; your preferred width is remembered across sessions
+
+#### Rich Markdown in Ticket Descriptions
+- **Full Markdown rendering** - Ticket descriptions now render links, bulleted and numbered lists, task-list checkboxes, tables, blockquotes, fenced code blocks, strikethrough, and auto-linked URLs — both in the hover tooltip and in the new ticket detail panel
+
+### Improvements
+
+#### Cleaner collapsed sidebar
+- **Hide team icons when the sidebar is collapsed** - The collapsed sidebar now shows only the logo and user avatar, removing the unlabelled team icons that made it hard to tell what was what
+
+---
+
+## Week of March 23-29, 2026
+
+### New Features
+
+#### Sign Up Page
+- **Dedicated Sign Up experience** - First-time users now have a dedicated Sign Up page, separate from the Login page, with consistent branding across both
+
+### Improvements
+
+#### Stay signed in to Linear longer
+- **Linear OAuth refresh token support** - DubPlanner now refreshes your Linear session automatically so you do not have to sign in as often
+
+#### Sidebar polish
+- **Long names no longer introduce scrollbars** - Team and project names in the sidebar are truncated cleanly instead of forcing horizontal scroll
+
+---
+
+## Week of March 2-8, 2026
+
+### New Features
+
+#### Onboarding Wizard for Linear
+- **Guided label setup on first login** - New Linear users are walked through setting up the Week labels DubPlanner needs, so the planner works from day one
+- **Works even in restricted workspaces** - DubPlanner can now create Week labels in Linear workspaces where label creation is normally restricted, via a temporary permission prompt
+- **Reconfigure Labels anytime** - Organization Settings has a new Reconfigure Labels button to re-run the setup wizard whenever you need to
+
+#### Pricing Plans and Billing
+- **Tiered pricing plans** - DubPlanner now has a tiered plan model with a free trial, paid plans, and per-seat billing powered by Stripe
+- **Automatic Stripe seat sync** - Disabling, enabling, or deleting a member automatically adjusts your Stripe subscription seat count so billing stays accurate
+
+#### User Management
+- **Disable and delete members** - Organization Settings now includes a full user management screen for disabling and deleting team members
+- **Created and Last Seen dates** - The Members screen now shows each member's Created date and Last Seen date
+
+### Improvements
+
+#### Organization Settings available for everyone
+- **Organization Settings is live by default** - The Organization Settings menu is now available for all workspaces, not just those with the feature flag enabled
+
+### Bug Fixes
+
+- **Switching projects between teams now works reliably** - Switching to a project on a different team no longer shows a blank screen
+- **Role changes apply immediately** - Changing a member's role in Organization Settings now updates the UI without requiring a page refresh
+- **Label wizard no longer tries to recreate existing labels** - The onboarding wizard correctly detects existing Week labels and leaves them alone
+- **Label wizard sees all 52 week labels** - Pagination is now handled correctly so the wizard finds every existing Week label
+- **Label wizard handles archived and team-scoped labels** - Archived or team-scoped Week labels are now handled correctly during setup
+- **"Looks Good" button closes the label wizard** - Confirming existing labels now exits the wizard as expected instead of leaving it open
+
+---
+
+## Week of February 23 - March 1, 2026
+
+### Bug Fixes
+
+- **Presence indicator tooltips no longer appear behind other UI** - Fixed a layering issue where presence indicator tooltips could be hidden behind other elements on the page
+
+---
+
 ## Week of February 16-22, 2026
 
 ### New Features
