@@ -32,6 +32,9 @@
 #### Backlog toolbar
 - **Responsive layout** - The backlog toolbar now collapses gracefully on narrower screens.
 
+#### Quick-create button
+- **Create an issue from anywhere** - A floating "+" button now sits in the bottom-right corner and opens the new issue dialog with a single click — the same as pressing C — making it easy to add work on touch devices or without reaching for the keyboard.
+
 ### Bug Fixes
 
 - **In-app notifications now appear** - Confirmation and warning toasts (for example after creating an issue) now show up correctly.
