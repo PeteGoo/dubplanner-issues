@@ -2,6 +2,42 @@
 
 ---
 
+## Week of June 1-7, 2026
+
+### New Features
+
+#### What-If Mode — experiment with your plan without touching Linear
+- **Try out alternate plans safely** - Create named "What-If" scenarios where you can rearrange the plan — move tickets across weeks and people, change milestones, send work to the backlog, or unassign it — and none of it is saved to Linear until you choose to apply.
+- **Add placeholder tickets** - Sketch in not-yet-created work as placeholders (double-click a cell, right-click → Create Issue, or press C); they only become real tickets when you apply the scenario.
+- **Review and apply in one step** - A review panel summarizes every change, showing each ticket's move, reassignment, and milestone change as a clear "from → to", then applies them all to Linear at once.
+- **See your changes at a glance** - An amber banner marks What-If mode and any ticket your scenario changes is outlined, so it's obvious what's different from the live plan.
+- **Collaborate live** - Teammates viewing the same scenario see updates in real time.
+
+#### Milestone focus and navigation
+- **Focus a single milestone** - Click a milestone to open it in a side panel and dim everything else, so you can concentrate on one milestone's work.
+- **Step through milestones** - Back/forward arrows in the milestone panel cycle through your milestones, plus a "No Milestone" view that highlights tickets not yet assigned to any milestone.
+- **Set milestones faster** - Choose a milestone when creating an issue, and change a ticket's milestone straight from its right-click menu (the current one is checked).
+
+#### Group the backlog
+- **Group By selector** - Organize the Backlog & Unscheduled list by grouping items — including by status — to make a long backlog easier to work through.
+
+### Improvements
+
+#### Accurate Linear statuses
+- **Real workflow states** - Ticket status, colors, and completion now reflect your project's actual Linear workflow states (your real Todo / In Progress / Done and any custom states) instead of generic ones.
+
+#### Milestones in the right order
+- **Match Linear's ordering** - Milestones now appear in the same order you've arranged them in Linear, everywhere they're shown.
+
+#### Backlog toolbar
+- **Responsive layout** - The backlog toolbar now collapses gracefully on narrower screens.
+
+### Bug Fixes
+
+- **In-app notifications now appear** - Confirmation and warning toasts (for example after creating an issue) now show up correctly.
+
+---
+
 ## Week of April 13-19, 2026
 
 ### New Features
