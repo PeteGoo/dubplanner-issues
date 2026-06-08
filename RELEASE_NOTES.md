@@ -27,6 +27,7 @@
 ### Bug Fixes
 
 - **Hover popups no longer pile up** - Moving the cursor across several tickets used to queue a burst of delayed popups that all appeared at once; the pending popup is now cancelled as soon as you move on.
+- **The side panel no longer squeezes the Backlog** - Opening a ticket or milestone's detail panel used to shrink the Backlog and distort its layout; the panel now overlays the view instead, and closing it (Esc or the close button) brings the full Backlog back.
 
 ---
 
