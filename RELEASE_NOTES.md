@@ -2,6 +2,34 @@
 
 ---
 
+## Week of June 8-14, 2026
+
+### New Features
+
+#### Collapse backlog groups
+- **Tidy up long backlogs** - When the Backlog is grouped (by milestone or status), each group now has a chevron to collapse or expand it, so you can fold away the groups you're not working on. The item count stays visible on collapsed groups.
+
+#### Control how ticket hover details appear
+- **Turn hover details on or off** - A new "Hover Details" toggle in the Display menu lets you disable the detailed popup that appears when hovering a ticket — handy now that the detail panel shows the same information. Your choice is remembered between visits.
+- **A calmer hover** - The hover popup now waits about a second before appearing instead of flashing up the instant your cursor passes over a ticket.
+
+### Improvements
+
+#### Backlog grouping
+- **Your grouping is remembered** - The Backlog "Group by" choice now persists between visits, so the list stays organized the way you left it.
+
+#### Milestone navigation
+- **Open a milestone from the backlog** - When the backlog is grouped by milestone, click a milestone's group header to open its detail panel, and the backlog automatically scrolls to keep the focused milestone in view as you step between them.
+
+#### Milestone details
+- **Formatted descriptions** - Milestone descriptions in the detail panel now render Markdown, so lists, links, and other formatting display properly.
+
+### Bug Fixes
+
+- **Hover popups no longer pile up** - Moving the cursor across several tickets used to queue a burst of delayed popups that all appeared at once; the pending popup is now cancelled as soon as you move on.
+
+---
+
 ## Week of June 1-7, 2026
 
 ### New Features
