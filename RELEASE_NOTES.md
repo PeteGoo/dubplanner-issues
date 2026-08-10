@@ -2,6 +2,46 @@
 
 ---
 
+## Week of August 10-16, 2026
+
+### New Features
+
+#### Custom Views — plan across several projects at once
+- **Build a view from any projects you choose** - Create a named view from the new "Views" group in the sidebar, pick projects from any team, and the planner opens with all of their work on one board.
+- **Or follow a Linear initiative** - Point a view at an initiative and it tracks that initiative's projects (including sub-initiatives) automatically, so projects added later show up without you editing the view. These views are named after the initiative they follow.
+- **Weeks line up across projects** - Projects that started at different times are aligned to real calendar weeks, so a column means the same point in time for everyone on the board.
+- **Everything you can do in a project, you can do in a view** - Drag tickets between weeks and people, change status, assignee and milestone, create new issues (you're asked which project, and it remembers your last choice per view), and group the Backlog by project.
+- **See where each ticket comes from** - Every card carries a colour dot matching its project in the sidebar, and the header shows how many projects are in the view with a list that links to each project's own planner.
+- **Plan together in a view** - Teammates' live updates and presence avatars work across every project in a view, and are visible to anyone working in those projects directly.
+- **Clear about what it can't do** - Dropping a ticket into a week before its own project starts is refused with an explanation instead of quietly moving it somewhere else, and if a project can't be loaded the view names it in a banner rather than silently showing less work.
+
+#### Book time off straight from the planner grid
+- **Availability from a cell's right-click menu** - Right-click a person's week in the grid and use the new Availability submenu to add a vacation, add an absence scoped to just this project, or remove an entry that overlaps that week.
+- **Confirm before it's booked** - Choosing "Add Vacation" opens Manage Availability prefilled with that week's Monday–Friday, so a mis-clicked cell is a dialog you can adjust or cancel rather than a booking you have to undo.
+- **Edit from the grid too** - "Edit Availability…" opens the same dialog on that person's entries, and the dialog's tabs now show how many entries each one holds.
+
+#### Search the sidebar
+- **Jump to any project or view by name** - A search box at the top of the sidebar finds projects across every team and your saved views in one ranked list — no expanding teams to hunt for a project.
+- **Search by team name as well** - Typing a team's name surfaces its projects, which helps when the same project name appears in more than one team.
+- **Keyboard-friendly** - Type, arrow up and down through the results, and press Enter to go there. If one team can't be reached, the rest of the results still appear alongside a notice.
+
+### Improvements
+
+#### Finding projects
+- **Better ranking in the Custom View project picker** - The picker now sorts prefix matches to the top and lets you find a project by its team name, matching how sidebar search behaves.
+
+#### Views
+- **Confirmation before deleting a view** - Deleting a view now asks first, and spells out that only the view is removed — your projects, tickets and milestones are untouched.
+- **Opens on the current week** - Views now scroll to the current week when you open them, the same as a single project does.
+
+### Bug Fixes
+
+- **Manage Availability could fail to open** - The availability dialog could return a server error the first time it was opened; the missing database configuration behind it is now in place.
+- **Filtered-out tickets no longer vanish** - Changing a ticket's status or assignee while a filter was active (such as hiding completed work) could silently drop the hidden tickets from the board until you reloaded.
+- **Removing someone's last availability entry now updates the grid** - Deleting a person's only vacation or absence left the shading on their row until a refresh.
+
+---
+
 ## Week of June 8-14, 2026
 
 ### New Features
