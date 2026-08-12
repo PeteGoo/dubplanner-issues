@@ -25,18 +25,32 @@
 - **Search by team name as well** - Typing a team's name surfaces its projects, which helps when the same project name appears in more than one team.
 - **Keyboard-friendly** - Type, arrow up and down through the results, and press Enter to go there. If one team can't be reached, the rest of the results still appear alongside a notice.
 
+#### A tidier top bar: Filter and Display
+- **Two menus instead of six controls** - The controls that had collected along the top of the planner are now grouped into two: **Filter** for what you see, and **Display** for how it looks.
+- **Filter** - Choose which issues appear (all, top-level only, sub-issues, or leaf issues) and whether archived and completed work is included.
+- **Display** - Set the density of the board, switch between Live and a What-If, turn estimates, expanded rows and hover details on or off, and refresh.
+- **See at a glance when something is filtered** - The Filter button shows a count whenever your settings are hiding work, so a half-empty board is never a mystery.
+- **Works from the keyboard** - Both menus open, navigate with the arrow keys, and close with Escape, returning you to where you were.
+
 ### Improvements
 
 #### Finding projects
 - **Better ranking in the Custom View project picker** - The picker now sorts prefix matches to the top and lets you find a project by its team name, matching how sidebar search behaves.
+- **Finished work is out of the way** - Completed and cancelled projects and initiatives are hidden from the pickers behind a toggle, and shown with a "Completed" badge when you switch them back on.
 
 #### Views
 - **Confirmation before deleting a view** - Deleting a view now asks first, and spells out that only the view is removed — your projects, tickets and milestones are untouched.
 - **Opens on the current week** - Views now scroll to the current week when you open them, the same as a single project does.
 
+#### Settings
+- **Dark mode moved to your account menu** - The dark mode switch now sits with your profile and settings at the bottom of the sidebar, rather than among the planner's display options.
+
 ### Bug Fixes
 
 - **Manage Availability could fail to open** - The availability dialog could return a server error the first time it was opened; the missing database configuration behind it is now in place.
+- **Names on presence avatars were cut off** - Hovering a teammate's avatar in the header showed a name label that was clipped by the bar and hidden behind the board; it now appears in full.
+- **The Create View dialog could overflow the screen** - With a long list of projects the dialog grew past the bottom of the window, putting its buttons out of reach.
+- **Initiatives sometimes failed to load** - The initiative list in the Create View dialog could come back empty because of a server error; it now loads reliably.
 - **Filtered-out tickets no longer vanish** - Changing a ticket's status or assignee while a filter was active (such as hiding completed work) could silently drop the hidden tickets from the board until you reloaded.
 - **Removing someone's last availability entry now updates the grid** - Deleting a person's only vacation or absence left the shading on their row until a refresh.
 
