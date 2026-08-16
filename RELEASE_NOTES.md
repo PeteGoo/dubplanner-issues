@@ -51,6 +51,8 @@
 - **Names on presence avatars were cut off** - Hovering a teammate's avatar in the header showed a name label that was clipped by the bar and hidden behind the board; it now appears in full.
 - **The Create View dialog could overflow the screen** - With a long list of projects the dialog grew past the bottom of the window, putting its buttons out of reach.
 - **Initiatives sometimes failed to load** - The initiative list in the Create View dialog could come back empty because of a server error; it now loads reliably.
+- **Statuses appeared twice in a view** - In a view spanning projects from more than one team, the status list showed every status twice — once per team — and choosing the wrong copy could set a ticket to another team's status. A ticket is now offered only the statuses of its own team.
+- **Milestones from other projects were on offer** - The ticket detail panel listed every milestone in the view, so a ticket could be filed under a milestone belonging to a different project. It now shows only its own project's milestones, as the right-click menu already did.
 - **Filtered-out tickets no longer vanish** - Changing a ticket's status or assignee while a filter was active (such as hiding completed work) could silently drop the hidden tickets from the board until you reloaded.
 - **Removing someone's last availability entry now updates the grid** - Deleting a person's only vacation or absence left the shading on their row until a refresh.
 
