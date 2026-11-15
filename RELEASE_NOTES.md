@@ -2,6 +2,81 @@
 
 ---
 
+## Week of November 9-15, 2026
+
+### New Features
+
+#### Add more weeks when a project runs late
+- **Extend the target date from the planner** - When a project is overdue, click the warning in the header and choose "Extend target date…" to push the project's target date out by 2, 4, 8 or any number of weeks. The new date is saved to Linear, so everyone sees the same plan.
+- **A "+" column at the end of the grid** - The last column of a project's planner now has an "Add weeks" button that opens the same dialog, so you can plan past the current end without leaving the board.
+- **Plans up to three years long** - The planner now shows up to 156 weeks instead of 32, so long projects and tickets scheduled far ahead are no longer cut off. Projects with no target date still open on 32 weeks.
+
+#### Bring people onto a project
+- **Import team members into an empty project** - A project with no members used to open as a board with only an "Unassigned" row. The planner now explains this and offers to add the people from the project's teams, which saves them to Linear. Importing only ever adds people; nobody is removed.
+- **Select all and search** - The import dialog has a select all option, a search box, and lets you find and add people from your wider Linear workspace who aren't on the project's teams.
+- **"Add team members" link** - A link under the member rows opens the same dialog at any time.
+
+#### See everyone who has work on the project
+- **Tickets assigned outside the project no longer disappear** - A scheduled ticket assigned to someone who isn't a project member used to vanish from the grid. That person now gets their own row, labelled "Not on this project".
+- **Add them in one click** - Click that row, or choose "Add to project" from its right-click menu, to make them a project member.
+
+#### Choose the team for a new issue
+- **Team picker for projects that span several teams** - When a project belongs to more than one Linear team, the New Issue dialog lets you choose which team the issue is created in. It remembers your last choice for each project.
+
+### Improvements
+
+#### Cycles
+- **Every cycle in the cycle header** - The cycle band above the weeks now shows every cycle of the project's lead team, including cycles with no tickets in them yet, rather than only the cycles your tickets happen to be in.
+
+#### Larger projects
+- **Up to 2,000 tickets per project** - Projects with more than 500 issues used to silently lose their oldest tickets. The planner now loads up to 2,000, and shows a notice if a project has even more than that.
+
+#### Scrolling
+- **Scroll the grid from the member column** - Turning the mouse wheel over the names on the left now scrolls the planner, in the Issue, Team and Project views.
+
+### Bug Fixes
+
+- **Moving a ticket reset its status** - Dragging a ticket to another week, or reassigning or unassigning it, set its status back to Todo. Tickets now keep their status when moved.
+- **Tickets from a project's other teams went missing** - In a project spanning several Linear teams, tickets belonging to a team other than the one you opened the project through could be left out of the backlog, shown as unfinished, or given the wrong team's status when moved. Each ticket now uses its own team's statuses.
+
+---
+
+## Week of September 21-27, 2026
+
+### New Features
+
+#### Plan from your Linear cycles
+- **Issues in a cycle appear on the grid** - If your team runs cycles (sprints) in Linear, issues with no Week label are now placed in the weeks their cycle covers, so a team that plans in cycles opens the planner to a populated board instead of a full backlog.
+- **Cycle bands above the weeks** - A band above the week header shows which weeks each cycle spans, so a two-week cycle is easy to read across its two columns.
+- **See why a card is where it is** - Hovering an automatically placed card says what put it there: its cycle, when it was completed, or when it was last updated.
+- **Your own planning still wins** - A Week label you've set always takes priority, completed work stays in the week it was finished, and dropping a ticket into the backlog keeps it there even if it's still in a cycle.
+
+### Bug Fixes
+
+- **Member names drifted out of line with expanded rows** - With "Expand rows" on, names in the member column could sit above their rows when team members loaded after the tickets. They now stay level.
+
+---
+
+## Week of August 17-23, 2026
+
+### New Features
+
+#### Team and Project summary views
+- **Group the planner by team or by project** - A new "Group rows by" choice in the Display menu switches the board between the usual Issue view and summary rows for each Team or Project, using the same week columns.
+- **Progress at a glance** - Each cell shows how many issues fall in that week, how many are done, a bar broken down by status, and how many are late. Hover a cell for the full breakdown.
+- **Keeps your place** - Switching between the Issue, Team and Project views keeps the week you were looking at in view.
+
+#### Know when there's a new version
+- **Refresh prompt after an update** - If DubPlanner is updated while you have it open, a message lets you know and offers to refresh. It never reloads on its own, so you won't lose anything you're in the middle of.
+
+### Bug Fixes
+
+- **Every past week was marked late** - Past weeks were flagged as late even when all their work was finished. Late markers now appear only on weeks with work still outstanding.
+- **"Show completed" did nothing** - Turning off "Show completed" in the Filter menu didn't hide completed work. It now does.
+- **Initiatives failed to load** - Workspaces with a "Proposed" initiative couldn't load the initiative list when creating a view. It now loads whatever statuses Linear uses.
+
+---
+
 ## Week of August 10-16, 2026
 
 ### New Features
